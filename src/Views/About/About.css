@@ -1,0 +1,9 @@
+.about-body{
+    width:100%;
+    height: 605px;
+    background: purple;
+    opacity: .92;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

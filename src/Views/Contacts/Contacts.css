@@ -1,0 +1,8 @@
+.contact-body{
+    height:550px;
+    width:100%;
+    background: blue;
+    opacity: .88;
+    display:flex;
+    justify-content: center;
+}

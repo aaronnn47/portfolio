@@ -1,23 +1,146 @@
 .project-body{
     width:100%;
-    height: 660px;
-    background: #75AF96;
+    height: 800px;
     padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     opacity: .95;
 }
-
-.project-body > img{
-    width: 40%;
-}
-
 .project-context {
-    width: 55%; 
+    width: 90%; 
     height: 40%;
-    background: green;
     display: flex;
+    flex-direction: column;
     font-size: 120%;
     overflow: scroll;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.project-carousel{
+    position: relative;
+    height: 50%;
+    width: 50%;
+}
+
+@media(min-width: 320px){
+    .project-body{
+        margin-top: 50px;
+        width: 100%;
+        height: 900px;
+        padding: 0px;
+    }
+    .project-context{
+        width: 90%;
+        font-size: 100%;
+    }
+    .project-carousel{
+        margin-top: 50px;
+        width: 70%;
+        height: 60%;
+        bottom: 100px;
+    }
+}
+
+@media(min-width: 400px){
+    .project-context{
+        width: 90%;
+        font-size: 100%;
+    }
+    .project-carousel{
+        width: 60%;
+        height: 40%;
+        bottom: 300px;
+    }
+}
+
+@media(min-width: 500px){
+    .project-context{
+        width: 90%;
+        font-size: 100%;
+    }
+    .project-carousel{
+        width: 50%;
+        height: 40%;
+        bottom: 300px;
+    }
+}
+
+@media(min-width: 600px){
+    .project-context{
+        width: 90%;
+        font-size: 100%;
+    }
+    .project-carousel{
+        width: 45%;
+        height: 40%;
+        bottom: 300px;
+    }
+}
+@media(min-width: 700px){
+    .project-context{
+        width: 90%;
+        font-size: 100%;
+    }
+    .project-carousel{
+        width: 40%;
+        height: 40%;
+        bottom: 300px;
+    }
+}
+
+@media(min-width: 800px){
+    .project-context{
+        width: 60%;
+        font-size: 120%;
+    }
+    .project-carousel{
+        width: 35%;
+        height: 40%;
+        bottom: 300px;
+    }
+}
+
+@media(min-width: 800px){
+    .project-context{
+        width: 60%;
+        font-size: 120%;
+    }
+    .project-carousel{
+        width: 30%;
+        height: 40%;
+        bottom: 300px;
+    }
+}
+
+@media(min-width: 1100px){
+    .project-carousel{
+        width: 25%;
+        height: 40%;
+        bottom: 300px;
+    }
+}
+
+@media(min-width: 1300px){
+    .project-context{
+        width: 50%;
+        font-size: 120%;
+    }
+    .project-carousel{
+        width: 20%;
+        height: 40%;
+        bottom: 300px;
+    }
+}
+@media(min-width: 1600px){
+    .project-context{
+        width: 50%;
+        font-size: 150%;
+    }
+    .project-carousel{
+        width: 15%;
+        height: 40%;
+        bottom: 300px;
+    }
 }

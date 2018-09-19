@@ -26,16 +26,16 @@ class Header extends Component{
             console.log(this.state.width)
             this.setState({
                 skills:600,
-                projects:992,
-                about: 1650,
+                projects:1040,
+                about: 1800,
                 contact: 2400,
                 contactTitle: 'Contact Me'
             })
         }else{
             this.setState({
-                skills:600,
-                projects:992,
-                about:1650,
+                skills:420,
+                projects:850,
+                about:1750,
                 contact: 2370,
                 contactTitle: 'Contact'
             })
@@ -58,13 +58,13 @@ class Header extends Component{
         console.log(this.state.about)
         return(
             <div className='header-body'>
-                <nav>
+                <div className='header-nav'>
                     <div onClick={()=>this.onNavClick(0)}>Home</div>
                     <div onClick={()=>this.onNavClick(this.state.skills)}>Skills</div>
                     <div onClick={()=>this.onNavClick(this.state.projects)}>Projects</div>
                     <div onClick={()=>this.onNavClick(this.state.about)}>About</div>
                     <div onClick={()=>this.onNavClick(this.state.contact)}>{this.state.contactTitle}</div>
-                </nav>
+                </div>
             </div>
         )
     }

@@ -13,24 +13,23 @@ export default function Skill(){
     return(
 
         <div className='skills-content'>
-            <img src={bottle} alt=''/>
             <div className='skills-one'>
-                    <div>
+                    <div className='skills-div'>
                     <img src={react} alt=''/>
                     <p>React</p>
                     </div>
 
-                    <div>
+                    <div className='skills-div'>
                     <img src={node} alt=''/>
                     <p>Node</p>
                     </div>
 
-                    <div>
+                    <div className='skills-div'>
                     <img src={postgres} alt=''/>
                     <p>Postgres</p>
                     </div>
 
-                    <div>
+                    <div className='skills-div'>
                     <img src={api} alt=''/>
                     <p>Restful Api</p>
                     </div>
@@ -38,17 +37,17 @@ export default function Skill(){
                 </div>
 
                 <div className='skills-two'>
-                    <div>
+                    <div className='skills-div'>
                     <img src={js} alt=''/>
                     <p>JavaScript</p>
                     </div>
 
-                    <div>
+                    <div className='skills-div'>
                     <img src={html} alt=''/>
                     <p>Html</p>
                     </div>
 
-                    <div>
+                    <div className='skills-div'>
                     <img src={css} alt=''/>
                     <p>CSS</p>
                     </div>

@@ -9,8 +9,11 @@
     "react-bootstrap": "^0.32.3",
     "react-dom": "^16.4.2",
     "react-image-gallery": "^0.8.11",
+    "react-responsive-carousel": "^3.1.41",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "react-social-media-icons": "^1.0.3",
+    "social-media-sharing": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

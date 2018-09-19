@@ -1,8 +1,24 @@
 .contact-body{
-    height:550px;
+    height:200px;
     width:100%;
-    background: blue;
+    background: #75AF96;
     opacity: .88;
+}
+
+.contact-content{
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rokkitt', serif;
+}
+
+.social-media-icons{
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+@media(min-width: 320px){
+    .contact-content{
+        font-size: 90%;
+    }
 }

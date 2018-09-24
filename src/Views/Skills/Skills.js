@@ -7,8 +7,6 @@ import api from '../../Images/api.svg'
 import js from '../../Images/javascript.svg'
 import html from '../../Images/html.svg'
 import css from '../../Images/css.svg'
-import bottle from '../../Images/bottle.jpg'
-
 export default function Skill(){
     return(
 
@@ -50,6 +48,11 @@ export default function Skill(){
                     <div className='skills-div'>
                     <img src={css} alt=''/>
                     <p>CSS</p>
+                    </div>
+
+                    <div className='skills-div'>
+                    <img src={react} alt=''/>
+                    <p>React Native</p>
                     </div>
             </div>
 

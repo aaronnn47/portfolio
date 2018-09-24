@@ -59,11 +59,11 @@ class Header extends Component{
         return(
             <div className='header-body'>
                 <div className='header-nav'>
-                    <div onClick={()=>this.onNavClick(0)}>Home</div>
-                    <div onClick={()=>this.onNavClick(this.state.skills)}>Skills</div>
-                    <div onClick={()=>this.onNavClick(this.state.projects)}>Projects</div>
-                    <div onClick={()=>this.onNavClick(this.state.about)}>About</div>
-                    <div onClick={()=>this.onNavClick(this.state.contact)}>{this.state.contactTitle}</div>
+                    <span onClick={()=>this.onNavClick(0)}>Home</span>
+                    <span onClick={()=>this.onNavClick(this.state.skills)}>Skills</span>
+                    <span onClick={()=>this.onNavClick(this.state.projects)}>Projects</span>
+                    <span onClick={()=>this.onNavClick(this.state.about)}>About</span>
+                    <span onClick={()=>this.onNavClick(this.state.contact)}>{this.state.contactTitle}</span>
                 </div>
             </div>
         )

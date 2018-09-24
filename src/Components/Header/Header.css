@@ -8,7 +8,7 @@
 }
 
 .header-nav > span{
-    cursor: pointer;
+    cursor: default;
 }
 
 .header-nav{

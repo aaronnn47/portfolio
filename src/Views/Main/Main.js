@@ -7,7 +7,8 @@ export default function Main(){
         <div className='main-body'>
             <img src={ocean} alt='' className='main-pic'/>
             <div className='main-content'>
-            <h1>Aaron Kim's Portfolio</h1>
+            <h1>Aaron Kim</h1>
+            <p>Web Development/ Mobile / Game / Blockchain</p>
             </div>
             
         </div>

@@ -11,16 +11,21 @@
 }
 .main-content{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 150px;
+    bottom: 350px;
 }
 
 .main-content > h1 {
     color: #499273;
     font-size: 150%;
 }
-
+.main-content > p{
+    color: black;
+    font-size: 150%;
+}
 @media(min-width: 320px){
     .main-content > h1 {
     font-size: 200%;

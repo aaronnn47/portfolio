@@ -1,5 +1,6 @@
 import React from 'react'
 import './Projects.css'
+import {Carousel} from 'react-bootstrap'
 import account from '../../Project_Images/Account.png'
 import home from '../../Project_Images/Home.png'
 import cart from '../../Project_Images/Cart.png'
@@ -10,23 +11,27 @@ import wallet from '../../Project_Images/Wallet.png'
 export default function Projects(){
     return(
     <div className='project-body'>
+        
         <div className='project-context'>
             <h1>clonebase.fun</h1>
             <p>
-                The project Clonebase was is a clone of
-                the website coinbase. It was a personal
+                The project Clonebase is a clone of
+                the website Coinbase. It was a personal
                 passion project of mine because
-                coinbase is a website that I frequent often.
-                I believe coinbase is an integral part of
+                Coinbase is a website that I frequent often.
+                I believe Coinbase is an integral part of
                 adapting bitcoin to the mass public. 
                 The technology is second to none and
                 blockchain will one day be the prime resource
                 for transactions. I also added an eccommerce 
                 aspect to Clonebase with a shopping cart and
-                a full cart. 
+                a full cart. Some of the technologies that I used for 
+                this project was Stripe Checkout, coinmarketcap api, 
+                postgreSQL database, react/redux, html/css, and
+                gmail API.
             </p>
         </div>
-
+        
         <div className='project-carousel'>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">

@@ -6,6 +6,7 @@ import pic3 from '../../Images/vs3.png'
 import pic4 from '../../Images/vs4.png'
 
 export default function Gallery(){
+
     return(
         <div className='gallery-div'>
             <img src={pic1} alt=''/>

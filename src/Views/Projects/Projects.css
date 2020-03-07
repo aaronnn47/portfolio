@@ -9,42 +9,61 @@
 }
 .project-context {
     width: 90%; 
-    height: 40%;
+    height: 35%;
     display: flex;
     flex-direction: column;
-    font-size: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .project-carousel{
     height: 50%;
-    width: 50%;
+    width: 60%;
 }
 
 
 @media(min-width: 415px){
     .project-context{
         width: 90%;
-        font-size: 100%;
+        height: 35%;
     }
     .project-carousel{
-        width: 60%;
-        height: 40%;
+        height: 45%;
+        width: 55%;
     }
 }
 
-@media(min-width: 620px){
+@media(min-width: 500px){
     .project-context{
         width: 90%;
-        font-size: 100%;
+        height: 35%;
     }
     .project-carousel{
-        width: 50%;
         height: 40%;
-        bottom: 300px;
+        width: 45%;
     }
 }
 
+@media(min-width: 600px){
+    .project-context{
+        width: 90%;
+        height: 35%;
+    }
+    .project-carousel{
+        height: 35%;
+        width: 35%;
+    }
+}
+
+@media(min-width: 700px){
+    .project-context{
+        width: 90%;
+        height: 35%;
+    }
+    .project-carousel{
+        height: 30%;
+        width: 25%;
+    }
+}
 
 @media(min-width: 820px){
     .project-context{
@@ -52,8 +71,18 @@
         font-size: 100%;
     }
     .project-carousel{
-        width: 40%;
-        height: 40%;
-        bottom: 300px;
+        height: 25%;
+        width: 25%;
+    }
+}
+
+@media(min-width: 900px){
+    .project-context{
+        width: 90%;
+        height: 35%;
+    }
+    .project-carousel{
+        height: 20%;
+        width: 19%;
     }
 }

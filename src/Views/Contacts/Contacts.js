@@ -33,8 +33,6 @@ export default function Contacts(){
                 iconSize={'5em'}
                 iconColor={'#495056'}
                 />
-
-                <p>This portfolio was made using React</p>
             </div>
         </div>
     )

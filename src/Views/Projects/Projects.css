@@ -12,12 +12,11 @@
     height: 40%;
     display: flex;
     flex-direction: column;
-    font-size: 120%;
+    font-size: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .project-carousel{
-    /* position: relative; */
     height: 50%;
     width: 50%;
 }
@@ -31,7 +30,6 @@
     .project-carousel{
         width: 60%;
         height: 40%;
-        /* bottom: 300px; */
     }
 }
 

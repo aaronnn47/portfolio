@@ -1,5 +1,6 @@
 .main-body{
     width: 100%;
+    height: 17%;
 }
 
 .main-pic{
@@ -18,6 +19,14 @@
     top: 35%;
 }
 
+.main-content > h1{
+    font-size: 115%;
+}
+
+.main-content > p {
+    font-size: 110%;
+}
+
 @media(min-width: 415px){
     .main-content > h1{
     font-size: 150%;
@@ -25,10 +34,6 @@
     .main-content > p {
     font-size: 90%;
     }
-    .main-body {
-        height: 17%;
-    }
-
 }
 
 @media(min-width: 620px){

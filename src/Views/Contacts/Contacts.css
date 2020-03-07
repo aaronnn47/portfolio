@@ -1,7 +1,7 @@
 .contact-body{
     height:200px;
     width:100%;
-    background: #75AF96;
+    background: rgb(136, 123, 95);
     opacity: .88;
 }
 
@@ -17,7 +17,7 @@
     margin-left: 10px;
 }
 
-@media(min-width: 320px){
+@media(min-width: 415px){
     .contact-content{
         font-size: 90%;
     }

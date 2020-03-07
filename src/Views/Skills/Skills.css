@@ -2,8 +2,10 @@
     margin: 0 auto;
     width:100%;
     height:20%;
-    background: #90c4af;
-    opacity: .70;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background: #b4a382;
+    opacity: .40;
     display: flex;
     flex-direction: column;
     justify-content: space-around
@@ -34,7 +36,7 @@
     width: 50%;
 }
 
-@media(min-width: 320px){
+@media(min-width: 415px){
     .skills-div{
         font-size: 80%;
     }
@@ -50,23 +52,7 @@
     }   
 }
 
-@media(min-width: 520px){
-    .skills-div{
-        font-size: 90%;
-    }
-    .skills-div > img{
-        width: 70%;
-    }
-    .skills-one{
-        width: 100%
-    }
-    
-    .skills-two{
-        width: 90%;
-    }  
-}
-
-@media(min-width: 720px){
+@media(min-width: 620px){
     .skills-div{
         font-size: 100%;
     }
@@ -82,7 +68,7 @@
     }  
 }
 
-@media(min-width: 1000px){
+@media(min-width: 820px){
     .skills-div{
         font-size: 120%;
     }
@@ -95,21 +81,5 @@
     
     .skills-two{
         width: 70%;
-    }  
-}
-
-@media(min-width: 1320px){
-    .skills-div{
-        font-size: 140%;
-    }
-    .skills-div > img{
-        width: 100%;
-    }
-    .skills-one{
-        width: 70%
-    }
-    
-    .skills-two{
-        width: 60%;
     }  
 }

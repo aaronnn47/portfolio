@@ -5,13 +5,12 @@ import './Header.css'
 class Header extends Component{
     constructor(){
         super()
-
         this.state={
             width: 0,
-            skills: 0,
-            projects: 0,
-            about: 0,
-            contact: 0,
+            skills: 374,
+            projects: 814,
+            about: 1884,
+            contact: 2294,
             contactTitle: ''
         }
     }
@@ -21,26 +20,25 @@ class Header extends Component{
             width: window.innerWidth
         })
     }
-    componentDidMount(){
-        if(this.state.width > 800){
-            console.log(this.state.width)
-            this.setState({
-                skills:600,
-                projects:1040,
-                about: 1800,
-                contact: 2400,
-                contactTitle: 'Contact Me'
-            })
-        }else{
-            this.setState({
-                skills:420,
-                projects:850,
-                about:1750,
-                contact: 2370,
-                contactTitle: 'Contact'
-            })
-        }
-    }
+    // componentDidMount(){
+    //     if((this.state.width > 415) && (this.state.width < 620)){
+    //         this.setState({
+    //             skills:418,
+    //             projects:858,
+    //             about: 1758,
+    //             contact: 2338,
+    //             contactTitle: 'Contact Me'
+    //         })
+    //     }else{
+    //         this.setState({
+    //             skills:660,
+    //             projects:1100,
+    //             about:2000,
+    //             contact: 2580,
+    //             contactTitle: 'Contact'
+    //         })
+    //     }
+    // }
 
     onNavClick(offset){
         const options={
@@ -55,7 +53,6 @@ class Header extends Component{
     }
     
     render(){
-        console.log(this.state.about)
         return(
             <div className='header-body'>
                 <div className='header-nav'>

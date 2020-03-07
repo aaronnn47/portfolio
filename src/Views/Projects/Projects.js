@@ -1,6 +1,5 @@
 import React from 'react'
 import './Projects.css'
-import {Carousel} from 'react-bootstrap'
 import account from '../../Project_Images/Account.png'
 import home from '../../Project_Images/Home.png'
 import cart from '../../Project_Images/Cart.png'
@@ -63,6 +62,7 @@ export default function Projects(){
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        
         </div>
         </div>
     </div>

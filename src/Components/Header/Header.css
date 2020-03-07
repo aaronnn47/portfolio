@@ -3,8 +3,8 @@
     height: 90px;
     position:fixed;
     z-index: 200;
-    background: #226666;
-    opacity: .99;
+    background: #cddbdb;
+    opacity: .75;
 }
 
 .header-nav > span{

@@ -7,10 +7,10 @@ class Header extends Component{
         super()
         this.state={
             width: 0,
-            skills: 374,
-            projects: 814,
-            about: 1884,
-            contact: 2294,
+            skills: 0,
+            projects: 0,
+            about: 0,
+            contact: 0,
             contactTitle: ''
         }
     }
@@ -20,25 +20,35 @@ class Header extends Component{
             width: window.innerWidth
         })
     }
-    // componentDidMount(){
-    //     if((this.state.width > 415) && (this.state.width < 620)){
-    //         this.setState({
-    //             skills:418,
-    //             projects:858,
-    //             about: 1758,
-    //             contact: 2338,
-    //             contactTitle: 'Contact Me'
-    //         })
-    //     }else{
-    //         this.setState({
-    //             skills:660,
-    //             projects:1100,
-    //             about:2000,
-    //             contact: 2580,
-    //             contactTitle: 'Contact'
-    //         })
-    //     }
-    // }
+    
+    componentDidMount(){
+        
+        if(this.state.width < 415){
+            this.setState({
+                skills: 374,
+                projects: 814,
+                about: 1884,
+                contact: 2294,
+                contactTitle: '' 
+        })}
+        else if((this.state.width > 415) && (this.state.width < 620)){
+            this.setState({
+                skills:374,
+                projects:744,
+                about: 1778,
+                contact: 2338,
+                contactTitle: 'Contact Me'
+            })
+        }else{
+            this.setState({
+                skills:660,
+                projects:1100,
+                about:2050,
+                contact: 2580,
+                contactTitle: 'Contact'
+            })
+        }
+    }
 
     onNavClick(offset){
         const options={

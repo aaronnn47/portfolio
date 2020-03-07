@@ -12,52 +12,26 @@ export default function Skill(){
     return(
 
         <div className='skills-content'>
-            <div className='skills-one'>
-                    <div className='skills-div'>
-                    <img src={react} alt=''/>
-                    <p>React</p>
-                    </div>
-
-                    <div className='skills-div'>
-                    <img src={node} alt=''/>
-                    <p>Node</p>
-                    </div>
-
-                    <div className='skills-div'>
-                    <img src={postgres} alt=''/>
-                    <p>Postgres</p>
-                    </div>
-
-                    <div className='skills-div'>
-                    <img src={api} alt=''/>
-                    <p>Restful Api</p>
-                    </div>
-
-                </div>
-
-                <div className='skills-two'>
-                    <div className='skills-div'>
-                    <img src={js} alt=''/>
-                    <p>JavaScript</p>
-                    </div>
-
-                    <div className='skills-div'>
-                    <img src={html} alt=''/>
-                    <p>Html</p>
-                    </div>
-
-                    <div className='skills-div'>
-                    <img src={css} alt=''/>
-                    <p>CSS</p>
-                    </div>
-
-                    <div className='skills-div'>
-                    <img src={react} alt=''/>
-                    <p>React Native</p>
-                    </div>
+            <div className='skills-div'>
+            <img src={react} alt=''/>
+            <p>Architure</p>
             </div>
 
-            
+            <div className='skills-div'>
+            <img src={node} alt=''/>
+            <p>Modeling</p>
+            </div>
+
+            <div className='skills-div'>
+            <img src={postgres} alt=''/>
+            <p>Engineering</p>
+            </div>
+
+            <div className='skills-div'>
+            <img src={api} alt=''/>
+            <p>Drafting</p>
+            </div>
+
         </div>
     )
 }

@@ -7,6 +7,7 @@ import api from '../../Images/api.svg'
 import js from '../../Images/javascript.svg'
 import html from '../../Images/html.svg'
 import css from '../../Images/css.svg'
+
 export default function Skill(){
     return(
 

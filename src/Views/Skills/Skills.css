@@ -1,9 +1,9 @@
 .skills-content{
     margin: 0 auto;
     width:100%;
-    height:390px;
-    background: #499273;
-    opacity: .92;
+    height:20%;
+    background: #90c4af;
+    opacity: .70;
     display: flex;
     flex-direction: column;
     justify-content: space-around

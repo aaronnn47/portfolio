@@ -6,8 +6,6 @@ import Skills from './Views/Skills/Skills'
 import Projects from './Views/Projects/Projects'
 import About from './Views/About/About'
 import Contacts from './Views/Contacts/Contacts'
-import Gallery from './Views/Gallery/Gallery'
-
 
 
 class App extends Component {

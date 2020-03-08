@@ -17,7 +17,7 @@ export default function Skill(){
 
             <div className='skills-div'>
             <img src={node} alt=''/>
-            <p>Node</p>
+            <p>JavaScript</p>
             </div>
 
             <div className='skills-div'>

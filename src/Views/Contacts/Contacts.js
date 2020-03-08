@@ -1,4 +1,4 @@
-import React,{Component} from 'react'
+import React from 'react'
 import './Contacts.css'
 import SocialMediaIcons from 'react-social-media-icons'
 

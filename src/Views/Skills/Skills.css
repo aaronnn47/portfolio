@@ -47,4 +47,8 @@
     .skills-div > img{
         width: 90%;
     }
+    .skills-content{
+        align-items: center;
+        flex-wrap: nowrap;
+    }
 }

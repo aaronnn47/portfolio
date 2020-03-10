@@ -8,7 +8,7 @@ export default function About() {
       <h1>About me</h1>
       <p>
         Hello, my name is Aaron Kim and I am currently pursuing a career in
-        electrical engineering. One of my passions is to build
+        engineering. One of my passions is to build
         things from scratch and solve puzzles. My mind is
         always learning and searching for creative solutions to complex problems our society faces.
         My thirst for finding innovation and technologies such as blockchain, induction motors,

@@ -13,10 +13,10 @@ export default function About() {
         always learning and searching for creative solutions to complex problems our society faces.
         My thirst for finding innovation and technologies such as blockchain, induction motors,
         inverters, solar panels and lithium batteries is what makes me
-        want to become an engineer.I also believe computer programming 
+        want to become an engineer. I also believe computer programming 
         will one day be the foundation for our learning process. Coding is a great 
         way to connect the world we live in as well as connecting machine languages
-        hardwares. As a developer and designer I want to create an app
+        to hardware and electronics. As a developer and designer I want to create an app
         that’ll allow people to create their own products and services while getting
         paid in the process. We currently live in an economy that benefits certain
         individuals and leave millions pushed aside. If we create our own products and goods

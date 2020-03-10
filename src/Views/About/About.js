@@ -8,16 +8,23 @@ export default function About() {
       <h1>About me</h1>
       <p>
         Hello, my name is Aaron Kim and I am currently pursuing a career in
-        software engineering. Some of my favorite things to do are building
-        things from scratch and solve puzzles such as the rubix cube. My mind is
-        always searching for the next best thing. My thirst for finding
-        innovated technologies such as blockchain technology is what makes me
-        stand out from others. I believe programming will one day be the
-        foundation for our future. Coding is a great way to understand the world
-        we live in now. As a full stack developer I want to create an app
-        that’ll allow people to seemlessly integrate blockchain technology in
-        everyday purchases. Aside from coding, I like to explore nature and find
-        creative ways to pursue adventures.
+        electrical engineering. One of my passions is to build
+        things from scratch and solve puzzles. My mind is
+        always learning and searching for creative solutions to complex problems our society faces.
+        My thirst for finding innovation and technologies such as blockchain, induction motors,
+        inverters, solar panels and induction motors is what makes me
+        want to become an architech / engineer.I also believe computer programming 
+        will one day be the foundation for our learning process. Coding is a great 
+        way to connect the world we live in as well as connecting machine languages
+        hardwares. As a developer and designer I want to create an app
+        that’ll allow people to create their own products and services while getting
+        paid in the process. We currently live in an economy that benefits certain
+        individuals and leave millions pushed aside. If we create our own products and goods
+        we can take away business from companies like Amazon and Walmart. They are the reason
+        why so many Americans feel as though they don't have a path forward. My Apps will restore
+        some passion and purpose to those affected by the gross inequalities in this world.
+        My Apps and businesses will create jobs and redistribute money and wealth more evenly across
+        our country and start cleaning up the mess we created for ourselves.
       </p>
 
     </div>

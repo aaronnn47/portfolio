@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./About.css";
 
 export default function About() {
@@ -12,8 +12,8 @@ export default function About() {
         things from scratch and solve puzzles. My mind is
         always learning and searching for creative solutions to complex problems our society faces.
         My thirst for finding innovation and technologies such as blockchain, induction motors,
-        inverters, solar panels and induction motors is what makes me
-        want to become an architech / engineer.I also believe computer programming 
+        inverters, solar panels and lithium batteries is what makes me
+        want to become an engineer.I also believe computer programming 
         will one day be the foundation for our learning process. Coding is a great 
         way to connect the world we live in as well as connecting machine languages
         hardwares. As a developer and designer I want to create an app

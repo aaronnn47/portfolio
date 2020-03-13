@@ -13,22 +13,13 @@
 
 .header-nav{
     height: 100%;
-    width: 90%;
+    width: 100%;
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
     font-size: 80%;
 }
-
-.header-nav > button{
-    width: 70%;
-    height: 50%;
-    background: #226666;
-    border: 0px solid black;
-}
-
-
 
 @media(min-width: 415px){
     .header-nav{

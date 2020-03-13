@@ -7,6 +7,7 @@ import mens from '../../Project_Images/Mens.png'
 import wallet from '../../Project_Images/Wallet.png'
 
 
+
 export default function Projects(){
     return(
     <div className='project-body'>

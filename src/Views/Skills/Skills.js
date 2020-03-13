@@ -12,22 +12,22 @@ export default function Skill(){
             
             <div className='skills-div'>
             <img src={react} alt=''/>
-            <p>React</p>
+            <p>Clothing</p>
             </div>
 
             <div className='skills-div'>
             <img src={node} alt=''/>
-            <p>JavaScript</p>
+            <p>Models</p>
             </div>
 
             <div className='skills-div'>
             <img src={postgres} alt=''/>
-            <p>Postgres</p>
+            <p>Apps</p>
             </div>
 
             <div className='skills-div'>
             <img src={api} alt=''/>
-            <p>Api</p>
+            <p>Designs</p>
             </div>
 
         </div>

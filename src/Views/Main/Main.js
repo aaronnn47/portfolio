@@ -1,6 +1,5 @@
 import React from 'react'
 import './Main.css'
-import ocean from '../../Images/ocean.jpg'
 import background from '../../Images/architecture.jpg'
 
 export default function Main(){

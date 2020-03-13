@@ -1,11 +1,11 @@
 import React from 'react'
-import './Gallery.css'
+import './Websites.css'
 import pic1 from '../../Images/vs1.png'
 import pic2 from '../../Images/vs2.png'
 import pic3 from '../../Images/vs3.png'
 import pic4 from '../../Images/vs4.png'
 
-export default function Gallery(){
+export default function Websites(){
 
     return(
         <div className='gallery-div'>

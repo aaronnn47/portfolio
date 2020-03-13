@@ -29,7 +29,7 @@ class Header extends Component{
                 projects: 814,
                 about: 1764,
                 contact: 2294,
-                contactTitle: '' 
+                contactTitle: 'Contact' 
         })}
         else if((this.state.width > 415) && (this.state.width < 620)){
             this.setState({
@@ -37,7 +37,7 @@ class Header extends Component{
                 projects:744,
                 about: 1778,
                 contact: 2338,
-                contactTitle: 'Contact Me'
+                contactTitle: 'Contact'
             })
         }else{
             this.setState({

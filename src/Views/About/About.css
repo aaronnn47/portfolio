@@ -17,10 +17,6 @@
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.about-second-content{
-    margin-top: 50px;
-}
-
 
 @media(min-width: 415px){
     .about-content{

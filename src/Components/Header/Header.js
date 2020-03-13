@@ -27,7 +27,7 @@ class Header extends Component{
             this.setState({
                 skills: 374,
                 projects: 814,
-                about: 1884,
+                about: 1764,
                 contact: 2294,
                 contactTitle: '' 
         })}

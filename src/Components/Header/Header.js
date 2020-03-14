@@ -11,7 +11,6 @@ class Header extends Component{
             projects: 0,
             about: 0,
             websites: 0,
-            contactTitle: ''
         }
     }
 
@@ -26,13 +25,13 @@ class Header extends Component{
         if(this.state.width < 415){
             this.setState({
                 skills: 374,
-                projects: 814,
-                about: 1764,
-                websites: 2344,
+                projects: 748,
+                about: 1698,
+                websites: 2278,
         })}
-        else if((this.state.width > 415) && (this.state.width < 620)){
+        else if((this.state.width > 620) && (this.state.width < 820)){
             this.setState({
-                skills:374,
+                skills:418,
                 projects:814,
                 about: 1764,
                 websites: 2344,
@@ -40,9 +39,9 @@ class Header extends Component{
         }else{
             this.setState({
                 skills:660,
-                projects:1100,
-                about:2050,
-                websites: 2630,
+                projects:1320,
+                about:2270,
+                websites: 2850,
             })
         }
     }

@@ -31,7 +31,7 @@ export default function Projects(){
                 gmail API.
             </p>
         </div>
-        
+
         <div className='project-carousel'>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">

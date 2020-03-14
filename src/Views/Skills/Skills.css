@@ -1,6 +1,6 @@
 .skills-content{
     width:100%;
-    height:20%;
+    height: 374px;
     padding-top: 70px;
     padding-bottom: 40px;
     background: #b4a382;
@@ -38,6 +38,9 @@
     .skills-div > img{
         width: 80%;
     }
+    .skills-content{
+        height: 418px;
+    }
 }
 
 @media(min-width: 820px){
@@ -48,6 +51,7 @@
         width: 90%;
     }
     .skills-content{
+        height: 660px;
         align-items: center;
         flex-wrap: nowrap;
     }

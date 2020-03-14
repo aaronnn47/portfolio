@@ -32,9 +32,9 @@ class Header extends Component{
         else if((this.state.width > 620) && (this.state.width < 820)){
             this.setState({
                 skills:418,
-                projects:814,
-                about: 1764,
-                websites: 2344,
+                projects:836,
+                about: 1786,
+                websites: 2366,
             })
         }else{
             this.setState({

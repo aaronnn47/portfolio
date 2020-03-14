@@ -1,6 +1,7 @@
 .gallery-div{
     width: 100%;
-    height: 400px;
+    height: 750px;
+    padding-top: 70px;
     background: white;
     display: flex;
     flex-wrap: wrap;

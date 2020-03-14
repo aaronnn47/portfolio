@@ -10,7 +10,7 @@ class Header extends Component{
             skills: 0,
             projects: 0,
             about: 0,
-            contact: 0,
+            websites: 0,
             contactTitle: ''
         }
     }
@@ -28,24 +28,21 @@ class Header extends Component{
                 skills: 374,
                 projects: 814,
                 about: 1764,
-                contact: 2294,
-                contactTitle: 'Contact' 
+                websites: 2344,
         })}
         else if((this.state.width > 415) && (this.state.width < 620)){
             this.setState({
                 skills:374,
-                projects:744,
-                about: 1778,
-                contact: 2338,
-                contactTitle: 'Contact'
+                projects:814,
+                about: 1764,
+                websites: 2344,
             })
         }else{
             this.setState({
                 skills:660,
                 projects:1100,
                 about:2050,
-                contact: 2580,
-                contactTitle: 'Contact'
+                websites: 2630,
             })
         }
     }
@@ -70,7 +67,7 @@ class Header extends Component{
                     <span onClick={()=>this.onNavClick(this.state.skills)}>Skills</span>
                     <span onClick={()=>this.onNavClick(this.state.projects)}>Projects</span>
                     <span onClick={()=>this.onNavClick(this.state.about)}>About</span>
-                    <span onClick={()=>this.onNavClick(this.state.contact)}>{this.state.contactTitle}</span>
+                    <span onClick={()=>this.onNavClick(this.state.websites)}>Websites</span>
                 </div>
             </div>
         )
